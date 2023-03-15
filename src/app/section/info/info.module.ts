@@ -12,6 +12,9 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports:[
+    ServicioComponent,
+    NosotrosComponent]
 })
 export class InfoModule { }

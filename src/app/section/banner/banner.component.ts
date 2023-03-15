@@ -22,7 +22,6 @@ export class BannerComponent implements OnInit {
           //ejecto para el div contenedor del saludo
           Banner.style.left = '0px';
           Banner.style.transitionDuration = '5s';
-          console.log(saludo1)
           //efecto para los elementos del div contenedor
           saludo1.style.left = '28%';
           saludo1.style.transitionDuration = '5s'
