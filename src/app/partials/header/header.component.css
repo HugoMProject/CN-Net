@@ -39,6 +39,7 @@ span{
     margin-right: 8px;
 }
 .div-links-ul li a{
+    cursor: pointer;
     text-decoration: none;
     color: #F1F3CE;
     font-family: 'Merriweather';
