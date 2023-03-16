@@ -17,6 +17,9 @@ export class HeaderComponent implements OnInit {
   aboutUs(){
     this.router.navigate(['aboutUs'])
   }
+  contact(){
+    this.router.navigate(['contact'])
+  }
   services(){
     this.router.navigate(['services'])
   }

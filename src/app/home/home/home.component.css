@@ -1,0 +1,183 @@
+/****************************** css del elemento footer ***********************/
+.mat-toolbar{
+    background-color: #F62A00;
+    display: flex;
+    align-items:flex-start;
+    justify-items:center;
+    justify-content: space-between;
+    position: relative;
+    /* top: 2300px; */
+    top: 325%;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.mat-toolbar .logotipo img{
+    display: none;
+}
+span{
+    position: relative;
+    top: 50px;
+    width: 98px;
+    height: 25px;
+    left: 15px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #F1F3CE;
+}
+.logo1{
+    color: #00293C;
+}
+h3{
+    position: relative;
+    left: 26%;
+    top: 20px;
+    font-size: 40px;
+    width: 98px;
+    height: 25px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 600;
+    color: #F1F3CE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact{
+    position:relative;
+    left: -15%;
+    top: 20%;
+    margin: 0;
+    padding: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+        height: 55px;
+        margin: 0.5rem;
+    }
+    .img-tel{
+        width: 50px;
+        height:50px;
+        border-radius: 40px;
+        overflow: hidden;
+    }
+    .img-tel img {
+        position:relative;
+        left: 5px;
+        top: 3px;
+        width: 40px;
+        height: 40px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-gmail{
+        width: 50px;
+        height:45px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .img-gmail img {
+        position:relative;
+        left: 0px;
+        top: 0px;
+        width: 45px;
+        height: 45px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h5{
+        width: auto;
+        margin: 0.5rem;
+        height: 25px;
+        left: 15px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #F1F3CE;
+    }
+    .redes{
+        position: relative;
+        top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 150px;
+    }
+    .redes div{
+        width:40px;
+        height: 40px;
+        border-radius: 30px;
+        margin: 0.2rem;
+        overflow: hidden;
+    }
+    .redes div a{
+        text-decoration: none;
+    }
+    .redes .facebook a img {
+        position:relative;
+        left: -2px;
+        top: -3px;
+        width: 43px;
+        height: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .redes .instagram{
+        width:40px;
+        height: 40px;
+        border-radius: 10px;
+    } 
+    .redes .instagram a img {
+        position:relative;
+        left: -10px;
+        top: -15px;
+        width: 60px;
+        height: 70px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+.copyright{
+    padding: 0;
+    position: absolute;
+    height: 30px;
+    width: 400px;
+    left: 5%;
+    top: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+}
+.copyright h5{
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 20px;
+    width: 100%;
+    height: 25px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 600;
+    color: #F1F3CE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -4,8 +4,9 @@
     align-items:flex-start;
     justify-items:center;
     justify-content: space-between;
-    position: absolute;
-    top: 4010px;
+    position: relative;
+    /* top: 2300px; */
+    top: 325%;
     bottom: 0;
     margin: 0;
     left: 0;
