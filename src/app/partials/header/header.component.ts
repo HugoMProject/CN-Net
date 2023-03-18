@@ -18,7 +18,8 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(['aboutUs'])
   }
   contact(){
-    this.router.navigate(['contact'])
+    let divContact:any = document.getElementById('contacto')
+    divContact.scrollIntoView();
   }
   services(){
     this.router.navigate(['services'])

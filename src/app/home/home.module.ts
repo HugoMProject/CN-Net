@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { SectionModule } from '../section/section.module';
 import { MaterialModule } from '../shared/material/material.module';
-
+import { PartialsModule } from '../partials/partials.module';
 
 @NgModule({
   declarations: [
@@ -12,8 +12,10 @@ import { MaterialModule } from '../shared/material/material.module';
   imports: [
     CommonModule,
     SectionModule,
-    MaterialModule
+    MaterialModule,
+    PartialsModule
   ],
-  exports:[SectionModule]
+  exports:[SectionModule,
+    PartialsModule]
 })
 export class HomeModule { }
