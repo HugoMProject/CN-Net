@@ -185,15 +185,12 @@
 
 }
 .section .section-control .control-info p{
-    /* position: relative;
-    top: 280px; */
     margin: 2em;   
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 900;
     font-size: 25px;
     line-height: 30px;
-    /* identical to box height */
     color: #F1F3CE;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
@@ -241,7 +238,201 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+/********************** css del contacto ***************************/
 
+/******************************* css del contacto ***********/
+@media screen and (min-width:700px){
+
+    .contact-container{
+        position: relative;
+        left: 0;
+        top: 3500px;
+        margin: 0;
+        width: 100%;
+    }
+    .contact-h2{
+        z-index: 1;
+        position: relative;
+        top: 20px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 19px;
+        text-align: center;
+        color: #00293C;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    }
+    .contact-h4{
+        z-index: 1;
+        position: relative;
+        margin: 0;
+        text-align: center;
+        top: 90px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 19px;
+        color: #00293C;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    }
+    .apreton-manos{
+        background-color: black;
+        position: absolute;
+        margin: 5%;
+        top: 120px;
+        width: 90%;
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 80%;
+        box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.25);
+    }
+    .div-contact{
+        position: relative;
+        top: 185px;
+        left: 45%;
+        width: 50%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .contac-info{
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .contact-span{
+        position: relative;
+        top:0;
+        margin: 0;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 19px;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .logo-tel{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border-radius: 35px;
+        margin-right: 1rem;
+    }
+    .logo-tel img {
+        position:relative;
+        left: 5px;
+        top: 3px;
+        width: 40px;
+        height: 40px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .logo-wp{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #1E656D;
+        margin-right: 1rem;
+        overflow: hidden;
+    }
+    .logo-wp img {
+        position:relative;
+        left: -25px;
+        top: -25px;
+        width: 100px;
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo-gmail{
+        position: relative;
+        width: 50px;
+        height: 45px;
+        border-radius: 10px;
+        margin-right: 1rem;
+    }
+    .logo-gmail img{
+        position:relative;
+        left: 3px;
+        top: 0px;
+        width: 45px;
+        height: 45px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contact-p{
+        position: relative;
+        left: -50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 19px;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .logo-facebook{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border-radius: 35px;
+        margin-right: 1rem;
+        overflow: hidden;
+    }
+    .logo-facebook img {
+        position:relative;
+        left: -1px;
+        top: 0px;
+        width: 50px;
+        height: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo-instagram{
+        position: relative;
+        width: 48px;
+        height: 47px;
+        border-radius: 10px;
+        margin-right: 1rem;
+        overflow: hidden;
+    }
+    .logo-instagram img {
+        position:relative;
+        left: -13px;
+        top: -13px;
+        width: 74px;
+        height: 74px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+}
 
 /******************** css del footer **************/
 /****************************** css del elemento footer ***********************/
@@ -252,7 +443,7 @@
     justify-items:center;
     justify-content: space-between;
     position: relative;
-    top: 3700px;
+    top: 3900px;
     bottom: 0;
     margin: 0;
     left: 0;
