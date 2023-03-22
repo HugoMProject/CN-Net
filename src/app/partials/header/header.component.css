@@ -23,6 +23,7 @@ span{
 }
 .logo1{
     color: #00293C;
+    border: 1.5px solid #00293C ;
 }
 .example-icon{
     display: none;
