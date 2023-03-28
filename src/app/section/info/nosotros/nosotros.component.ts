@@ -11,5 +11,7 @@ export class NosotrosComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  seeMore(){
+    window.location.href='http://localhost:4200/aboutUs'
+  }
 }

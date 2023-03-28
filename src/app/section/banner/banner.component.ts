@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-banner',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
     this.showBanner()
@@ -19,7 +20,7 @@ export class BannerComponent implements OnInit {
     let saludo2:any = document.querySelector('.saludo2');
     let divBtn:any = document.querySelector('.div-btn');
       window.addEventListener('load', function() {
-          //ejecto para el div contenedor del saludo
+          //efecto para el div contenedor del saludo
           Banner.style.left = '0px';
           Banner.style.transitionDuration = '5s';
           //efecto para los elementos del div contenedor
@@ -32,6 +33,9 @@ export class BannerComponent implements OnInit {
           
         
     });
-
+    // funcion para ir a la seccion de nosotros
+  }
+  goToAboutUs(){
+    this.router.navigate(['aboutUs'])
   }
 }
