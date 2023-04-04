@@ -1,64 +1,236 @@
-.mat-toolbar{
-    background-color: #F62A00;
-    display: flex;
-    align-items:center;
-    justify-items: center;
-    justify-content: space-between;
-    position: absolute;
-    width: 100%;
+@media screen and (min-width:700px) {
+    .mat-toolbar{
+        background-color: #F62A00;
+        display: flex;
+        align-items:center;
+        justify-items: center;
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+    }
+    .mat-toolbar .logotipo img{
+        display: none;
+    }
+    span{
+        position: relative;
+        width: 98px;
+        height: 25px;
+        left: 12px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        color: #F1F3CE;
+    }
+    .logo1{
+        color: #00293C;
+        border: 1.5px solid #00293C ;
+    }
+    .example-icon{
+        display: none;
+    }
+    .div-links-ul {
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .div-links-ul li {
+        list-style: none;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .div-links-ul li a{
+        cursor: pointer;
+        color: #F1F3CE;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 13px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    .div-links-ul li a:hover{
+        cursor: pointer;
+        color: #00293C;
+        background-color: transparent;
+        border-bottom: 1px solid #00293C ;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: all 0.7s;
+    
+    }
 }
-a{
-    text-decoration: none;
+@media screen and (min-width:550px) and (max-width:699px) {
+    .mat-toolbar{
+        background-color: #F62A00;
+        display: flex;
+        align-items:center;
+        justify-items: center;
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+    }
+    .mat-toolbar .logotipo img{
+        display: none;
+    }
+    span{
+        position: relative;
+        width: 98px;
+        height: 25px;
+        left: 12px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        color: #F1F3CE;
+    }
+    .logo1{
+        color: #00293C;
+        border: 1.5px solid #00293C ;
+    }
+    .example-icon{
+        display: none;
+    }
+    .div-links-ul {
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .div-links-ul li {
+        list-style: none;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .div-links-ul li a{
+        cursor: pointer;
+        color: #F1F3CE;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 13px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    .div-links-ul li a:hover{
+        cursor: pointer;
+        color: #00293C;
+        background-color: transparent;
+        border-bottom: 1px solid #00293C ;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: all 0.7s;
+    
+    }
 }
-.mat-toolbar .logotipo img{
-    display: none;
-}
-span{
-    position: relative;
-    width: 98px;
-    height: 25px;
-    left: 12px;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    color: #F1F3CE;
-}
-.logo1{
-    color: #00293C;
-    border: 1.5px solid #00293C ;
-}
-.example-icon{
-    display: none;
-}
-.div-links-ul {
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.div-links-ul li {
-    list-style: none;
-    margin-left: 8px;
-    margin-right: 8px;
-}
-.div-links-ul li a{
-    cursor: pointer;
-    color: #F1F3CE;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 13px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-}
-.div-links-ul li a:hover{
-    cursor: pointer;
-    color: #00293C;
-    background-color: transparent;
-    border-bottom: 1px solid #00293C ;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition: all 0.7s;
-
+@media(max-width:549px) {
+    .mat-toolbar{
+        background-color: #F62A00;
+        display: flex;
+        align-items:center;
+        justify-items: center;
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+    }
+    .mat-toolbar .logotipo img{
+        display: none;
+    }
+    span{
+        position: relative;
+        width: 98px;
+        height: 25px;
+        left: 12px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        color: #F1F3CE;
+    }
+    .logo1{
+        color: #00293C;
+        border: 1.5px solid #00293C ;
+    }
+    .example-icon{
+        position: absolute;
+        left:83%;
+        background-color: transparent;
+        color: #00293C;
+        border-radius: 0px;
+        border: 1.5px solid #00293C;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        justify-items: center;
+        align-items: center;
+        height: 35px;
+        width:35px;
+        box-shadow: 1px 0.5px 1px 0.1px #00293C;
+        cursor: pointer;
+    }
+    .example-icon .line{
+        background-color: #00293C;
+        width: 20px;
+        height: 2px;
+    }
+    .div-links-ul {
+        position: absolute;
+        left:0px;
+        width: 80%;
+        height: 300px;
+        top: 36px;
+        background-color: #F62A00;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        gap:5px;
+        border: 1px solid #00293C;
+        z-index: 2;
+        transition: all 0.6s;
+    }
+    .div-links-movil-on{
+        position: absolute;
+        left: -500px;
+        transition: all 0.6s;
+    }
+    .div-links-ul li {
+        padding: 15px 0px;
+        list-style: none;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .div-links-ul li a{
+        cursor: pointer;
+        color: #F1F3CE;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 13px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    .div-links-ul li a:hover{
+        cursor: pointer;
+        color: #00293C;
+        background-color: transparent;
+        border-bottom: 1px solid #00293C ;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: all 0.7s;
+    
+    }
 }

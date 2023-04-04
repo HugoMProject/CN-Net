@@ -3,11 +3,13 @@
         <img src="" alt="">
         <span class="logo1">CN</span><span class="logo2">Net</span>
     </div>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
+    <button id="btn-header" class="example-icon icon-x" (click)="showBtn()">
+      <div class="line 1"></div>
+      <div class="line 2"></div>
+      <div class="line 3"></div>
     </button>
-    <div class="div-links">
-        <ul class="div-links-ul">
+    <div class="div-links ">
+        <ul id="link-id" class="div-links-ul div-links-movil-on">
             <li><a (click)="home()">Inicio</a></li>
             <li><a (click)="services()">Servicios</a></li>
             <li><a (click)="aboutUs()">Nosotros</a></li>

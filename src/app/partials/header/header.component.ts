@@ -24,5 +24,17 @@ export class HeaderComponent implements OnInit {
   services(){
     this.router.navigate(['services'])
   }
-
+  /******************** funcion para el efecto del btn **************/
+  showBtn(){
+    const btn:any = document.getElementById('btn-header');
+    btn.addEventListener('click',showLinks()) 
+    function showLinks(){
+      const links:any = document.querySelector('.div-links-ul');
+      if(links.classList.contains('div-links-movil-on')){
+        links.classList.remove('div-links-movil-on');
+      }else{
+        links.classList.add('div-links-movil-on');
+      }
+    }
+  }
 }
